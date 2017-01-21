@@ -1,0 +1,63 @@
+html, body, .container{
+	height: 100%;
+}
+
+body{
+	font-family: '微软雅黑', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	display: block;
+}
+
+h1{
+
+	font-family: '幼圆';
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.3em;
+}
+
+h3{
+	font-size: 1.1em;
+}
+
+h4, h5, h6{
+	font-size: 1em;
+}
+
+a:link, a:visited, a:active, a:hover{
+	text-decoration: none;
+	outline-width: 0;
+	color: #258fb8;
+	outline: none;
+}
+
+.clear-fix:before, .clear-fix:after{
+	content: ' ';
+	display: table;
+}
+
+.clear-fix:after{
+	clear: both;
+}
+
+.clear-fix{
+  *zoom: 1;  /* IE/7/6 */
+}
+
+@font-face
+  font-family: FontAwesome
+  font-style: normal
+  font-weight: normal
+  src: url(font-icon-path + ".eot?v=#" + font-icon-version)
+  src: url(font-icon-path + ".eot?#iefix&v=#" + font-icon-version) format("embedded-opentype"),
+       url(font-icon-path + ".woff?v=#" + font-icon-version) format("woff"),
+       url(font-icon-path + ".ttf?v=#" + font-icon-version) format("truetype"),
+       url(font-icon-path + ".svg#fontawesomeregular?v=#" + font-icon-version) format("svg")
