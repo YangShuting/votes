@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->   
 	<head>
 		<meta charset="utf-8">
 		<title>Beauty</title>
-		<link rel="stylesheet" href="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<ul id="beautyNameLists"></ul>
-		<div id="beauty">
-			<h2 id="beautyName"></h2>
-			<div id="voteCounts"></div>
-			<img src="" id="beauty-img">
+		<div class="container">
+			<div class="clear-fix"></div>
+			<div class="beautyListContainer">
+				<h1>请为你最喜爱的明星投票</h1>
+				<ul id="beautyNameLists"></ul>
+			</div>
+			<div id="beauty">
+				<h2 id="beautyName"></h2>
+				<div id="voteCounts"></div>
+				<img src="" id="beauty-img">
+			</div>
 		</div>
 		<script src="js/yourbeauty.js"></script>
 	</body>
