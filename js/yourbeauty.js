@@ -8,7 +8,7 @@ var beautyInfo = {
 						  	name: '新垣结衣',
 						  	age: '29',
 						  	icon: 'img/GakkiIcon.jpg',
-						  	pic: 'img/Gakki.jpg',
+						  	pic: 'img/upvote.png',
 						  	country: 'Japan',
 						  	hometown: '冲绳',
 						  	job: 'actress singer',
@@ -19,7 +19,7 @@ var beautyInfo = {
 						  	name: '长泽雅美',
 						  	age: '29',
 						  	icon: 'img/majiangIcon.jpg',
-						  	pic: 'img/majiang.jpg',
+						  	pic: 'img/upvote.png',
 						  	country: 'Japan',
 						  	hometown: '东京',
 						  	job: 'actress',
@@ -175,7 +175,7 @@ var beautyDetailsView = {
          this.beautyNameElem = document.getElementById('beautyName');
          this.voteCountsElem = document.getElementById('voteCounts');
          this.imgElem = document.getElementById('beauty-img');
-
+         this.imgElem.className = 'pointer';
          this.imgElem.addEventListener('click', function(){
              octopus.increaseVotes();
          });
