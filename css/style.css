@@ -68,6 +68,9 @@ a:link, a:visited, a:active, a:hover {
   margin-top: -10px;
   margin-bottom: 10px; }
 
+div > img.pointer {
+  cursor: pointer; }
+
 /*卡片通用样式*/
 .single-member {
   width: 280px;
